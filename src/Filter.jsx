@@ -30,7 +30,7 @@ function PollList() {
     return <div>Loading...</div>;
   }
 
-  // displayed A, B of C wnr geclicked. Gebruikt map function om PollCard te renderen. Rendert div me info uit eerste object in showpolss array. "?." operator
+  // displayed A, B of C wnr geclicked. Gebruikt map function om PollCard te renderen. Rendert div me info uit eerste object in showpolss array.
   return (
     <div className="polls">
       <button onClick={() => showA()}>A</button>
